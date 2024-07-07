@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+#hero{
+    font-family: "Work Sans", sans-serif;
+    height: 700px;
+    background-position: center;
+    
+    background-size: cover;
+    background-image: linear-gradient(0deg, rgb(16, 16, 16) -19.5%,rgba(16, 16, 16, 0) 100%) ,
+     url(../assets/hero-bg.png);
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     text-align: center;
+    
+}
+ .container{
+    width: 1023px;
+    color: rgb(255, 255, 255);
+    margin: 264px 449px 262px 448px;
+
+}
+#hero .container .subtitle{
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.8;
+}
+#hero .container h1{
+    color: rgb(255, 255, 255);
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 80px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin: 16px 0px;
+}
+
+#hero .container .comment{
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 16px;
+    opacity: 0.8;
+}
+#hero .container button{
+    border: none;
+    border-radius: 8px;
+    padding: 21px 32px;
+    background: rgb(82, 195, 3);
+    color: rgb(255, 255, 255);
+    margin: 32px 0px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    }
+#hero .container button:hover{
+    background: #198022;
+}
+
+
+
+#card-box{
+    font-family: "Work Sans", sans-serif;
+    height: 619px;
+    position: static;
+    width: 924px;
+    height: 522px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px;
+    text-wrap: wrap;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 44px auto;
+        
+}
+#card-box .heading{
+    position: static;
+    width: 691px;
+    height: 173px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px;
+    text-align: center;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 48px 0px;
+}
+#card-box .heading p{
+    font-size: 24px;
+    font-weight: 500;
+    opacity: 0.6;
+
+}
+#card-box .heading h1{
+    color: rgb(16, 16, 16);
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 16px;
+}
+.card{
+    width: 420px;
+    height: 467px;
+    margin-left: 20px;
+    text-align: center;
+
+}
+.cards .card .image{
+    width: 410px;
+    height: 198px;
+}
+.cards .card .image img{
+    width: 100%;
+}
+.cards{
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0;
+    align-items: flex-start;
+     height: 525px;
+
+}
+.crd{
+    height: 48px ;
+    width: 160px;
+    border-radius: 8px;
+    margin-top: 100px;
+    margin-left: 130px;
+    background: rgba(82, 195, 3, 0.15);
+    
+}
+.crd span{
+    margin: 32px 14px;
+    color: rgb(16, 16, 16);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.card h1{
+    color: rgb(16, 16, 16);
+    margin: 24px 0px;
+    font-size: 34px;
+    font-weight: 600;
+    line-height: 47px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.card p{
+    color: rgb(16, 16, 16);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: center;
+}
